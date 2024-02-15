@@ -1,3 +1,6 @@
+![1704357824455](https://github.com/ViniMortinho/Blazin-2024/assets/110264434/c2153def-39bf-4ea0-9d7e-e2ec67a59e01)
+
+
 # Blazin' 2024 With Blazor
 ![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)![Blazor](https://img.shields.io/badge/blazor-%235C2D91.svg?style=for-the-badge&logo=blazor&logoColor=white)![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ###
@@ -50,13 +53,13 @@ Para criar um novo projeto de aplicativo Web do Blazor no Visual Studio Code com
 
 6 - Exiba seu novo projeto de aplicativo Blazor no Gerenciador de Soluções.
 
-Opcional: Criar um novo aplicativo Blazor com o C# Dev Kit
+## Opcional: Criar um novo aplicativo Blazor com o C# Dev Kit
 Para criar um projeto de aplicativo Web do Blazor usando o SDK do .NET na linha de comando, use o seguinte comando:
 
 CLI do .NET
-
-Copiar
+```
 dotnet new blazor
+```
 Se você criou o aplicativo Blazor com o Visual Studio Code ou a CLI do .NET, o projeto gerado contém os seguintes arquivos e páginas:
 
 Program.cs é o ponto de entrada do aplicativo que inicia o servidor e onde você configura os serviços de aplicativo e o middleware.
@@ -86,5 +89,4 @@ CLI do .NET
 Copiar
 dotnet watch
 Esse comando cria e inicia o aplicativo e aplica todas as alterações de código ao aplicativo em execução. O aplicativo deve ser aberto automaticamente no navegador padrão. Seu navegador pode avisá-lo de que o site ainda não tem um certificado válido; É seguro continuar.
-
-
+[https://learn.microsoft.com/pt-br/training/aspnetcore/blazor-introduction/media/interactive-server.png]
