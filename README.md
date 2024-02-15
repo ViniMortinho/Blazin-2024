@@ -33,4 +33,58 @@ Este módulo usa o SDK do .NET 8.0. Verifique se você tem o .NET 8.0 instalado 
 ```
 Verifique se uma versão que começa com 8 está listada. Se nenhum estiver listado ou o comando não for encontrado, instal
 e o SDK do .NET 8.0 mais recente: __https://dotnet.microsoft.com/pt-br/download__
-![.NET 8.0](https://dotnet.microsoft.com/pt-br/download)
+
+
+##Criar um novo aplicativo Web do Blazor com o Kit de Desenvolvimento em C#
+Para criar um novo projeto de aplicativo Web do Blazor no Visual Studio Code com o Kit de Desenvolvimento em C#:
+
+Abra a paleta de comandos usando Ctrl+Shift+P e digite ".NET".
+
+Localize e selecione o .NET: Comando Novo projeto.
+
+Selecione Aplicativo Web Blazor na lista suspensa.
+
+Selecione a pasta na qual você deseja criar o novo projeto.
+
+Nomeie o projeto BlazorApp e pressione Enter para confirmar.
+
+Exiba seu novo projeto de aplicativo Blazor no Gerenciador de Soluções.
+
+Opcional: Criar um novo aplicativo Blazor com o C# Dev Kit
+Para criar um projeto de aplicativo Web do Blazor usando o SDK do .NET na linha de comando, use o seguinte comando:
+
+CLI do .NET
+
+Copiar
+dotnet new blazor
+Se você criou o aplicativo Blazor com o Visual Studio Code ou a CLI do .NET, o projeto gerado contém os seguintes arquivos e páginas:
+
+Program.cs é o ponto de entrada do aplicativo que inicia o servidor e onde você configura os serviços de aplicativo e o middleware.
+App.razor é o componente raiz do aplicativo.
+Routes.razor configura o roteador do Blazor.
+O diretório Componentes/Páginas contém algumas páginas da Web de exemplo para o aplicativo.
+BlazorApp.csproj define o projeto de aplicativo e suas dependências e pode ser exibido clicando duas vezes no nó do projeto no Gerenciador de Soluções.
+O arquivo launchSettings.json dentro do diretório Propriedades define diferentes configurações de perfil para o ambiente de desenvolvimento local. Um número de porta é atribuído automaticamente na criação do projeto e salvo neste arquivo.
+Executar o aplicativo com o depurador integrado
+No Visual Studio Code, selecione Executar no menu.
+
+Selecione Iniciar Depuração.
+
+Selecione C# na lista suspensa Selecionar depurador.
+
+Selecione C#: BlazorApp [Configuração Padrão]
+
+Isso cria e inicia o aplicativo com a depuração habilitada. O aplicativo deve ser aberto automaticamente no navegador padrão. Seu navegador pode avisar que o site não é seguro. É seguro continuar.
+
+Screenshot showing the default Blazor app running in a browser.
+
+Opcional: Executar o aplicativo com a CLI do .NET
+Na janela do terminal, copie e cole o seguinte comando para executar o aplicativo e observe as alterações de arquivo:
+
+CLI do .NET
+
+Copiar
+dotnet watch
+Esse comando cria e inicia o aplicativo e aplica todas as alterações de código ao aplicativo em execução. O aplicativo deve ser aberto automaticamente no navegador padrão. Seu navegador pode avisá-lo de que o site ainda não tem um certificado válido; É seguro continuar.
+
+
