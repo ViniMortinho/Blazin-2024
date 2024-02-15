@@ -38,17 +38,17 @@ e o SDK do .NET 8.0 mais recente: __https://dotnet.microsoft.com/pt-br/download_
 ##Criar um novo aplicativo Web do Blazor com o Kit de Desenvolvimento em C#
 Para criar um novo projeto de aplicativo Web do Blazor no Visual Studio Code com o Kit de Desenvolvimento em C#:
 
-Abra a paleta de comandos usando Ctrl+Shift+P e digite ".NET".
+1 - Abra a paleta de comandos usando Ctrl+Shift+P e digite ".NET".
 
-Localize e selecione o .NET: Comando Novo projeto.
+2 - Localize e selecione o .NET: Comando Novo projeto.
 
-Selecione Aplicativo Web Blazor na lista suspensa.
+3 - Selecione Aplicativo Web Blazor na lista suspensa.
 
-Selecione a pasta na qual você deseja criar o novo projeto.
+4 - Selecione a pasta na qual você deseja criar o novo projeto.
 
-Nomeie o projeto BlazorApp e pressione Enter para confirmar.
+5 - Nomeie o projeto BlazorApp e pressione Enter para confirmar.
 
-Exiba seu novo projeto de aplicativo Blazor no Gerenciador de Soluções.
+6 - Exiba seu novo projeto de aplicativo Blazor no Gerenciador de Soluções.
 
 Opcional: Criar um novo aplicativo Blazor com o C# Dev Kit
 Para criar um projeto de aplicativo Web do Blazor usando o SDK do .NET na linha de comando, use o seguinte comando:
