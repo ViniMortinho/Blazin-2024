@@ -1,5 +1,6 @@
 # Blazin' 2024 With Blazor
 ![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)![Blazor](https://img.shields.io/badge/blazor-%235C2D91.svg?style=for-the-badge&logo=blazor&logoColor=white)![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+###
 _Blazin' with 2024 Blazor é uma conferência online dedicada a desenvolvedores que desejam aprender e se aprofundar no framework Blazor da Microsoft. A conferência acontecerá em 2024 e será focada em Blazor WebAssembly_
 
 ## Descrição
